@@ -268,7 +268,7 @@ export default function App() {
                 FOTOGRAFIA DI <span style={{ color: COLORS.orange }}>ROMA OGGI</span>
               </h2>
               <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "2rem", letterSpacing: "0.1em" }}>
-                Roma ha più auto che famiglie. Non perché i romani amino guidare — ma perché non hanno alternative affidabili."
+                Roma ha più auto che famiglie. Non perché i romani amino guidare — ma perché non hanno alternative affidabili.
               </h2>
               <Tag color="teal">Monitoraggio Continuo 2025</Tag>
             </div>
