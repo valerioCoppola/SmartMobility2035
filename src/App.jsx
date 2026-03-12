@@ -196,7 +196,7 @@ export default function App() {
                     <Tag>Visione 2035</Tag>
                     <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "clamp(2rem, 6vw, 4rem)", letterSpacing: "0.05em", lineHeight: 1, marginTop: "0.5rem" }} className="glow-text">
                       ROMA LIBERA<br />
-                      <span style={{ color: COLORS.orange }}>DALL'AUTO PRIVATA</span>
+                      <span style={{ color: COLORS.orange }}>DAL DOVER AVERE UN'AUTO</span>
                     </h2>
                     <p className="mt-4 text-sm leading-relaxed max-w-xl" style={{ color: COLORS.textDim }}>
                       Un sistema integrato di mobilità condivisa, elettrica e intelligente che trasforma Roma da città con 
@@ -266,6 +266,9 @@ export default function App() {
             <div className="flex items-center justify-between flex-wrap gap-3">
               <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "2rem", letterSpacing: "0.1em" }}>
                 FOTOGRAFIA DI <span style={{ color: COLORS.orange }}>ROMA OGGI</span>
+              </h2>
+              <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "2rem", letterSpacing: "0.1em" }}>
+                Roma ha più auto che famiglie. Non perché i romani amino guidare — ma perché non hanno alternative affidabili."
               </h2>
               <Tag color="teal">Monitoraggio Continuo 2025</Tag>
             </div>
@@ -416,9 +419,9 @@ export default function App() {
                 {
                   icon: "🌍", title: "Costo per la Città", color: COLORS.orange,
                   items: [
-                    "€1.5 miliardi/anno in produttività persa nel traffico",
+                    "Stimati €1 miliardi/anno in produttività persa nel traffico",
                     "€420M/anno in costi sanitari da inquinamento",
-                    "80% della superficie pubblica occupata da parcheggi",
+                    "35% della superficie pubblica occupata da parcheggi",
                     "2.8 ore/settimana perse nel traffico per romano",
                     "Temperatura urbana +2.1°C effetto isola di calore",
                     "35% dello spazio stradale per sosta privata gratuita",
@@ -539,7 +542,12 @@ export default function App() {
                   <div className="text-4xl">🗝️</div>
                   <div className="flex-1">
                     <Tag color="orange">Meccanica Centrale</Tag>
-                    <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.6rem", letterSpacing: "0.08em", marginTop: "0.3rem" }}>CAR SHARING CIVICO — "LA TUA AUTO LAVORA PER TE"</h3>
+                    <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.6rem", letterSpacing: "0.08em", marginTop: "0.3rem" }}>
+                      CAR SHARING CIVICO — "LA TUA AUTO LAVORA PER TE"
+                      </h3>
+                    <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.6rem", letterSpacing: "0.08em", marginTop: "0.3rem" }}>
+                      Il motivo per cui gli italiani non comprano elettrico non è il prezzo. È la paura di restare a piedi.
+                      </h3>
                     <p className="text-sm mt-2" style={{ color: COLORS.textDim }}>
                       Il proprietario cede la propria auto alla rete condivisa tramite app. L'auto viene utilizzata da altri cittadini quando lui non ne ha bisogno. 
                       Lui riceve un rimborso automatico. Tutti ci guadagnano.
@@ -787,7 +795,7 @@ export default function App() {
               <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.5rem", letterSpacing: "0.08em", marginTop: "0.3rem" }}>COSA FACCIO IO, OGGI?</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 {[
-                  { fase: "Ora (2025)", icon: "📱", azioni: ["Scarica Roma Mobility App (non ancora disponibile — registra interesse)", "Verifica l'euro-class della tua auto su ACI", "Calcola quanto spendi annualmente di auto con il calcolatore app"] },
+                  { fase: "Ora (2025)", icon: "📱", azioni: ["Scarica Roma Mobility App", "Verifica l'euro-class della tua auto su ACI", "Calcola quanto spendi annualmente di auto con il calcolatore app"] },
                   { fase: "Breve termine (2026)", icon: "🚗", azioni: ["Aderisci al programma pilota car sharing civico — installi RFID gratis", "Inizia a usare monopattino/bici per tragitti <5km", "Valuta se ha senso passare all'EV con incentivi statali+comunali"] },
                   { fase: "Medio termine (2028)", icon: "⚡", azioni: ["Acquisti il prossimo auto? Scegli EV con batteria swappable (standard EU)", "Riduci da 2 a 1 auto in famiglia — il sistema ti copre", "Abbonati a Roma Mobility Premium per la famiglia"] },
                   { fase: "2035 — L'Obiettivo", icon: "🌱", azioni: ["Hai 0 auto o 1 condivisa — usi il sistema per tutto", "Spendi €150–200/mese vs €430/mese con auto propria", "Contribuisci ad una città con meno smog e più spazio"] },
