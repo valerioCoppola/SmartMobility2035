@@ -476,7 +476,7 @@ export default function App() {
                     MAAS — MOBILITY<br />AS A SERVICE
                   </h3>
                   <p className="text-sm mt-3 leading-relaxed" style={{ color: COLORS.textDim }}>
-                    Il cittadino non possiede un mezzo: <strong style={{ color: COLORS.text }}>sottoscrive la mobilità</strong> come sottoscrive Netflix. 
+                    Il cittadino non possiede un mezzo: <strong style={{ color: COLORS.text }}>sottoscrive la mobilità</strong> come abbonamento economico. 
                     Lo Stato garantisce che per ogni esigenza, in ogni quartiere, ci sia sempre il mezzo giusto disponibile.
                   </p>
                   <div className="mt-4 space-y-3">
